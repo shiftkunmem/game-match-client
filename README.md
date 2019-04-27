@@ -1,2 +1,11 @@
 # game-match-client
-FOOOOOOOOOOOO
+
+## start 
+
+```
+$ docker-compose build
+$ docker-compose run
+```
+
+## local
+- http://localhost:8000/

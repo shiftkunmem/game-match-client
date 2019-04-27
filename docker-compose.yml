@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: ./docker/app/Dockerfile
+    command: yarn start
+    volumes:
+      - ./app:/app
+    ports:
+      - 8000:3000
